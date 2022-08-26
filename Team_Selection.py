@@ -1,7 +1,7 @@
 
 import json
 
-# Opening JSON fileC:\Vinfast\Latency check Reports\data.json
+# Opening JSON file 'Teams_RCB.json'
 file = open("Teams_RCB.json")
 
 # returns JSON object as
@@ -13,7 +13,7 @@ file.close()
 
 foreign_players = []  # taking lists to append the values for counting purpose
 wicket_keeper = []
-india_country = 'India'
+india_country = 'India' # Defining constant values for comparison
 wicket_keeper_role = 'Wicket-keeper'
 
 # looping through json data
